@@ -1,2 +1,2 @@
 # chromatica
-Manipulate the theme color in Chrome for Android
+Manipulate the theme color `<meta>` tag in Chrome for Android

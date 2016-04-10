@@ -1,0 +1,26 @@
+{
+  "name": "chromatica",
+  "version": "0.1.0",
+  "description": "Manipulate the theme color meta tag in Chrome for Android",
+  "main": "chromatica.js",
+  "scripts": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spcfran/chromatica.git"
+  },
+  "keywords": [
+    "chrome",
+    "android",
+    "meta",
+    "theme",
+    "color"
+  ],
+  "author": "Fran Rodriguez (@spcfran)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spcfran/chromatica/issues"
+  },
+  "homepage": "https://github.com/spcfran/chromatica"
+}
