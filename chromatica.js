@@ -13,7 +13,7 @@ var Chromatica = (function(window) {
     function hex2dec(hex) { return (parseInt(hex, 16)); }
     function dec2hex(dec) { return (dec < 16 ? "0" : "") + dec.toString(16); }
     function cleanHex(c) {
-        c = (c || "").replace(/[^0-9a-fA-F]/g, "");
+        c = (c || "").replace(/[^\dA-F]/gi, "");
         if (c.length == 3) {
             c = [c[0], c[0], c[1], c[1], c[2], c[2]].join("");
         }
